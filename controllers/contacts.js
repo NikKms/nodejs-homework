@@ -62,11 +62,15 @@ const updateContact = async (req, res) => {
 
 const updateStatusContact = async (req, res) => {
   const { contactId } = req.params;
-  const result = await Contact.findByIdAndUpdate({ _id: contactId }, req.body, {
-    new: true,
-  });
-  if (!result) {
-    throw HttpError(400, 'missing field favorite');
+
+  const result = await Contact.findByIdAndUpdate(
+    { _id: contactId },
+    { favorite: req.body.favorite },
+    { new: true }
+  );
+
+  if (!req.body || !req.body.favorite) {
+    return res.status(400).json({ message: 'missing field favorite' });
   }
 
   res.json(result);
