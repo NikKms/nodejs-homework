@@ -1,7 +1,12 @@
 const { modelContact } = require('../../models');
 
 const addContact = async (req, res) => {
-  const result = await modelContact.Contact.create(req.body);
+  const { _id: owner } = req.user;
+
+  const result = await (
+    await modelContact.Contact.create({ ...req.body, owner })
+  ).populate('owner', 'email');
+
   if (!result) {
     throw Error(400, 'Missing required name field');
   } else {

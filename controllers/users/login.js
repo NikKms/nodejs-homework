@@ -22,6 +22,7 @@ const login = async (req, res) => {
 
   const payload = { id: user._id };
   const token = jwt.sign(payload, SECRET_KEY, { expiresIn: '24h' });
+  await modelUser.User.findByIdAndUpdate(user._id, { token });
 
   console.log(`User ${email} login succes👌`);
 

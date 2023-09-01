@@ -4,6 +4,7 @@ const removeContact = require('./removeContact');
 const addContact = require('./addContact');
 const updateContact = require('./updateContact');
 const updateStatusContact = require('./updateStatusContact');
+const getFavorite = require('./getFavorite');
 
 const { controlWrapper } = require('../../helpers');
 
@@ -14,6 +15,7 @@ const ctrlContacts = {
   addContact: controlWrapper(addContact),
   updateContact: controlWrapper(updateContact),
   updateStatusContact: controlWrapper(updateStatusContact),
+  getFavorite: controlWrapper(getFavorite),
 };
 
 module.exports = ctrlContacts;

@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { validateBody } = require('../../middlewares');
+const { validateBody, autheticate } = require('../../middlewares');
 
 const { modelUser } = require('../../models');
 
@@ -18,6 +18,17 @@ router.post(
   '/login',
   validateBody(modelUser.schemas.loginSchema),
   ctrlUsers.login
+);
+
+router.post('/current', autheticate, ctrlUsers.getCurrent);
+
+router.post('/logout', autheticate, ctrlUsers.logout);
+
+router.patch(
+  '/',
+  autheticate,
+  validateBody(modelUser.schemas.updtSubscriptionSchema),
+  ctrlUsers.updtSubscription
 );
 
 module.exports = router;
