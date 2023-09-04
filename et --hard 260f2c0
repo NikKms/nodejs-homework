@@ -1,0 +1,178 @@
+[33mcommit 9b951c848b82508a14247d4abdbd61b4bfe9de94[m[33m ([m[1;36mHEAD -> [m[1;32mhw05-avatars[m[33m)[m
+Author: NikKms <mykola.kamyshnikov@gmail.com>
+Date:   Sat Sep 2 15:41:45 2023 +0300
+
+    done
+
+[33mcommit 260f2c08974d059bf6357b6d7ad0091112c606f9[m
+Author: NikKms <mykola.kamyshnikov@gmail.com>
+Date:   Sat Sep 2 13:30:43 2023 +0300
+
+    add upload avatar funcional
+
+[33mcommit 16726373c295f0267ea8a7da95652d297d434963[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: e8a4b59 1c1bba1
+Author: Nikolay Kamyshnikov <119286614+NikKms@users.noreply.github.com>
+Date:   Sat Sep 2 09:35:19 2023 +0300
+
+    Merge pull request #3 from NikKms/hw04-auth
+    
+    Hw04 auth
+
+[33mcommit 1c1bba1939b2829f5b914d34cb67890f1abbdaac[m[33m ([m[1;31morigin/hw04-auth[m[33m, [m[1;32mhw04-auth[m[33m)[m
+Author: NikKms <mykola.kamyshnikov@gmail.com>
+Date:   Fri Sep 1 19:51:43 2023 +0300
+
+    fix token, add logout, add current page, add owner, add favorite filter, add updtSubscription, done app
+
+[33mcommit 5433cb311806a67e5eda6698ced14c8691a361c8[m
+Author: NikKms <mykola.kamyshnikov@gmail.com>
+Date:   Fri Sep 1 12:23:26 2023 +0300
+
+    add login, reg routs, controllers, model. install bcrypt, jwstoken
+
+[33mcommit 106b88a4d8f51107c01785939ff79f09e293239a[m
+Author: NikKms <mykola.kamyshnikov@gmail.com>
+Date:   Thu Aug 31 20:00:24 2023 +0300
+
+    remake to  index patern import/export
+
+[33mcommit e8a4b59cb0de590eaeba69a8a4b430f0eeb86666[m
+Merge: 2661d63 7429d25
+Author: Nikolay Kamyshnikov <119286614+NikKms@users.noreply.github.com>
+Date:   Thu Aug 31 17:33:07 2023 +0300
+
+    Merge pull request #2 from NikKms/hw03-mongodb
+    
+    Hw03 mongodb
+
+[33mcommit 7429d259a9520c9f788e1d9597e0b04d10dd62ab[m[33m ([m[1;31morigin/hw03-mongodb[m[33m, [m[1;32mhw03-mongodb[m[33m)[m
+Author: NikKms <mykola.kamyshnikov@gmail.com>
+Date:   Thu Aug 31 12:32:44 2023 +0300
+
+    fix errors
+
+[33mcommit f3722fef1e11775c372f2bd6118b99409e94393f[m
+Author: NikKms <mykola.kamyshnikov@gmail.com>
+Date:   Thu Aug 31 12:22:09 2023 +0300
+
+    add node -v
+
+[33mcommit c6cf16adabd39fce782e93858dfc0927623595e8[m
+Author: NikKms <mykola.kamyshnikov@gmail.com>
+Date:   Thu Aug 31 12:20:19 2023 +0300
+
+    mongoose
+
+[33mcommit 2661d632a4e4d3c6085de4269f2a1a1b587f0dfb[m
+Merge: 77a2bc2 15d97b9
+Author: Nikolay Kamyshnikov <119286614+NikKms@users.noreply.github.com>
+Date:   Wed Aug 30 14:09:35 2023 +0300
+
+    Merge pull request #1 from NikKms/hw02-express
+    
+    done
+
+[33mcommit 15d97b9137877e20a91c8300b0ba33317bf731ac[m[33m ([m[1;31morigin/hw02-express[m[33m, [m[1;32mhw02-express[m[33m)[m
+Author: NikKms <mykola.kamyshnikov@gmail.com>
+Date:   Sun Aug 27 18:07:16 2023 +0300
+
+    done
+
+[33mcommit 77a2bc26a640455eb1dd6c6d1f8b03b988a8bde3[m
+Author: AndriSkrypka <102464331+AndriSkrypka@users.noreply.github.com>
+Date:   Mon May 29 14:21:08 2023 +0300
+
+    add file readme pl
+
+[33mcommit eb121a07e0d50ff2e3a750fa093102126eddf36a[m
+Author: unknown <bogdan.lyamzin.d@gmail.com>
+Date:   Mon Mar 27 21:49:34 2023 +0300
+
+    small fix
+
+[33mcommit 892b6db21a7155551b320dbf1628ca34188e1cb5[m
+Author: unknown <bogdan.lyamzin.d@gmail.com>
+Date:   Wed Mar 22 17:31:28 2023 +0200
+
+    add .idea and .vscode to .gitignore
+
+[33mcommit a4897b9582090d0ebaf915bab557850c30cb8008[m
+Author: unknown <bogdan.lyamzin.d@gmail.com>
+Date:   Wed Mar 22 17:30:13 2023 +0200
+
+    remove .idea
+
+[33mcommit ab2288d1484124ed946009c8a342b63d93a6c18e[m
+Author: unknown <bogdan.lyamzin.d@gmail.com>
+Date:   Tue Mar 21 19:20:33 2023 +0200
+
+    change id in contacts from integer to nanoid
+
+[33mcommit cbaae4359c0ec6b65fc72b3e59d6e28c59108381[m
+Merge: 8f94f7a efffa81
+Author: BogdanLyamzin <45244594+BogdanLyamzin@users.noreply.github.com>
+Date:   Fri Jun 3 17:34:17 2022 +0300
+
+    Merge pull request #781 from goitacademy/translate
+    
+    translate md to UA
+
+[33mcommit efffa814edee05e9c4c3db3536d1a0d50b50b259[m
+Author: Valeria <i18n@goit.global>
+Date:   Fri Jun 3 17:26:31 2022 +0300
+
+    translate to UA
+
+[33mcommit 8f94f7a84fe9c691ec126e5a35b4b47b01835586[m
+Author: MandorSavall <bogdan.lyamzin.d@gmail.com>
+Date:   Sun Apr 3 09:00:05 2022 +0300
+
+    add .env to .gitignore
+
+[33mcommit 6a60d014a60b9ac740f970017932df1950d4fb5d[m
+Author: MandorSavall <bogdan.lyamzin.d@gmail.com>
+Date:   Sat Jan 22 16:39:17 2022 +0200
+
+    fix
+
+[33mcommit a065861e0bd71f93c1bd7782d061d0f2fd6ed5ac[m
+Merge: a2e080b 82f757b
+Author: Yuriy Kuchma <krabatua@gmail.com>
+Date:   Wed Jan 19 23:27:56 2022 +0200
+
+    Merge pull request #535 from goitacademy/small-fix
+    
+    add small fix
+
+[33mcommit 82f757b05439601a8e32620fe1360394deaee405[m
+Author: MandorSavall <bogdan.lyamzin.d@gmail.com>
+Date:   Wed Jan 19 20:50:40 2022 +0200
+
+    small fix
+
+[33mcommit 6918b59a16c4acb57f0b31d1050ea4eec9d43b87[m
+Author: MandorSavall <bogdan.lyamzin.d@gmail.com>
+Date:   Wed Jan 19 17:50:22 2022 +0200
+
+    add small fix
+
+[33mcommit a2e080bc28d5790e5a4ca90479c4d0037b1367cb[m
+Author: krabaton <krabatua@gmail.com>
+Date:   Wed Dec 15 05:01:17 2021 +0200
+
+    light fix
+    add prettier to config
+
+[33mcommit dd40ecfd49d70eb26883b844dbf89ffa7a247af2[m
+Author: krabaton <krabatua@gmail.com>
+Date:   Fri Feb 12 15:01:08 2021 +0200
+
+    Refactor.
+    Simplification of the structure.
+
+[33mcommit f93f2acad8ed901a443ef16cb549486ab8482cc9[m
+Author: krabaton <krabatua@gmail.com>
+Date:   Mon Feb 8 02:57:53 2021 +0200
+
+    first commit

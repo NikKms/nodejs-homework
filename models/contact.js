@@ -31,14 +31,19 @@ const contactSchema = new Schema(
 contactSchema.post('save', handleMongooseError);
 
 const addSchema = Joi.object({
-  name: Joi.string().required(),
+  name: Joi.string()
+    .required()
+    .messages({ 'string.empty': 'Missing required name field' }),
   email: Joi.string().required(),
   phone: Joi.string().required(),
   favorite: Joi.boolean(),
 });
 
 const updFavoriteSchema = Joi.object({
-  favorite: Joi.boolean(),
+  favorite: Joi.boolean()
+    .required()
+    .valid(true)
+    .error(new Error('missing field favorite')),
 });
 
 const schemas = {

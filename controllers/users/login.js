@@ -12,11 +12,12 @@ const login = async (req, res) => {
 
   const user = await modelUser.User.findOne({ email });
 
-  const passwordCompare = bcrypt.compare(password, user.password);
+  if (!user) throw HttpError(401, 'Email or password is wrong');
 
-  if (!user || !passwordCompare) {
-    throw HttpError(401, 'Email or password is wrong');
-  }
+  if (!user.verify) throw HttpError(401, 'Email or password is wrong');
+
+  const passwordCompare = bcrypt.compare(password, user.password);
+  if (!passwordCompare) throw HttpError(401, 'Email or password is wrong');
 
   const { subscription } = user;
 
